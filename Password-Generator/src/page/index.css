@@ -1,0 +1,106 @@
+.container {
+  padding: 1em 1.5em;
+  border: none;
+  border-radius: 5px;
+  width: 20em;
+  background: linear-gradient(115deg, #fff720, #3cd500);
+  box-shadow: 0px 0px 82px rgba(3, 7, 18, 0.31);
+}
+
+.heading {
+  margin: 10px 0;
+  text-align: center;
+  font-family: "Archivo", sans-serif;
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #000;
+}
+.password-input {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  margin: 5px 15px 0;
+  position: relative;
+}
+.password-input > input {
+  width: 100%;
+  height: 2.5em;
+  padding: 1px 10px;
+  border-radius: 2px;
+  position: relative;
+  border: 2px solid gray;
+  font-size: 1em;
+}
+.password-input > button {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 8px;
+  border: none;
+  font-size: 20px;
+  background-color: transparent;
+}
+.strength {
+  position: absolute;
+  text-align: start;
+  color: #000;
+  margin: 0px 25px;
+}
+
+/* checkbox */
+.checkbox-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 3em 2em 1em;
+}
+.checkbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  text-align: center;
+  color: #000;
+  font-weight: 600;
+  font-family: "Archivo", sans-serif;
+}
+
+/* lenght-input */
+.lenght-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lenght-input > input {
+  width: 25%;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 1em;
+  background: transparent;
+  border: none;
+}
+
+/* btn */
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+}
+.btn > button {
+  cursor: pointer;
+  padding: 5px 15px;
+  background: linear-gradient(115deg, #ffffff, #fff1ba, #ffffff);
+  color: #000;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 12px 5px 20px rgba(0, 0, 0, 0.61);
+}
